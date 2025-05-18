@@ -1,0 +1,60 @@
+[
+    {
+        "username": "muzz",
+        "password": "123",
+        "first_name": "Muzammil",
+        "last_name": "Khalid",
+        "balance": 998705.0,
+        "rentals": [
+            {
+                "car_id": "1001",
+                "start_date": "2025-05-20",
+                "end_date": "2025-05-21",
+                "days": 2,
+                "total_cost": 100.0,
+                "status": "completed",
+                "return_date": "2025-05-21",
+                "fine_amount": 0
+            },
+            {
+                "car_id": "1005",
+                "start_date": "2025-05-20",
+                "end_date": "2025-05-20",
+                "days": 1,
+                "total_cost": 120.0,
+                "status": "completed",
+                "return_date": "2025-05-25",
+                "fine_amount": 900.0
+            },
+            {
+                "car_id": "1001",
+                "start_date": "2025-05-01",
+                "end_date": "2025-05-02",
+                "days": 2,
+                "total_cost": 100.0,
+                "status": "completed",
+                "return_date": "2025-05-3",
+                "fine_amount": 75.0
+            }
+        ]
+    },
+    {
+        "username": "new",
+        "password": "123",
+        "first_name": "new",
+        "last_name": "one",
+        "balance": 9999862.5,
+        "rentals": [
+            {
+                "car_id": "1002",
+                "start_date": "2025-05-18",
+                "end_date": "2025-05-18",
+                "days": 1,
+                "total_cost": 55.0,
+                "status": "completed",
+                "return_date": "2025-05-19",
+                "fine_amount": 82.5
+            }
+        ]
+    }
+]
