@@ -46,5 +46,13 @@
         "seating_capacity": 5,
         "rental_price": 2000.0,
         "available": true
+    },
+    {
+        "car_id": "1007",
+        "brand": "Hyundai",
+        "model": "Elantra",
+        "seating_capacity": 5,
+        "rental_price": 60.0,
+        "available": true
     }
 ]

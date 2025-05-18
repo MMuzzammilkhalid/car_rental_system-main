@@ -29,6 +29,16 @@
             "status": "completed",
             "return_date": "2025-05-3",
             "fine_amount": 75.0
+        },
+        {
+            "car_id": "1002",
+            "start_date": "2025-05-20",
+            "end_date": "2025-05-22",
+            "days": 3,
+            "total_cost": 165.0,
+            "status": "completed",
+            "return_date": "2025-05-25",
+            "fine_amount": 247.5
         }
     ],
     "fahad": [
