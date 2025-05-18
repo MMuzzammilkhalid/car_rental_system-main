@@ -21,7 +21,7 @@
         "model": "Mustang",
         "seating_capacity": 4,
         "rental_price": 85.0,
-        "available": true
+        "available": false
     },
     {
         "car_id": "1004",
@@ -37,6 +37,14 @@
         "model": "X5",
         "seating_capacity": 7,
         "rental_price": 120.0,
+        "available": true
+    },
+    {
+        "car_id": "1006",
+        "brand": "civic",
+        "model": "2016",
+        "seating_capacity": 5,
+        "rental_price": 2000.0,
         "available": true
     }
 ]

@@ -39,10 +39,10 @@
         ]
     },
     {
-        "username": "new",
+        "username": "fahad",
         "password": "123",
-        "first_name": "new",
-        "last_name": "one",
+        "first_name": "fahad",
+        "last_name": "Hussnain",
         "balance": 9999862.5,
         "rentals": [
             {
@@ -54,6 +54,25 @@
                 "status": "completed",
                 "return_date": "2025-05-19",
                 "fine_amount": 82.5
+            }
+        ]
+    },
+    {
+        "username": "ali",
+        "password": "123",
+        "first_name": "Ali",
+        "last_name": "Khan",
+        "balance": 9840.0,
+        "rentals": [
+            {
+                "car_id": "1003",
+                "start_date": "2025-5-10",
+                "end_date": "2025-5-11",
+                "days": 2,
+                "total_cost": 170.0,
+                "status": "active",
+                "return_date": null,
+                "fine_amount": 0
             }
         ]
     }

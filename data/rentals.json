@@ -31,7 +31,7 @@
             "fine_amount": 75.0
         }
     ],
-    "new": [
+    "fahad": [
         {
             "car_id": "1002",
             "start_date": "2025-05-18",
@@ -41,6 +41,18 @@
             "status": "completed",
             "return_date": "2025-05-19",
             "fine_amount": 82.5
+        }
+    ],
+    "ali": [
+        {
+            "car_id": "1003",
+            "start_date": "2025-5-10",
+            "end_date": "2025-5-11",
+            "days": 2,
+            "total_cost": 170.0,
+            "status": "active",
+            "return_date": null,
+            "fine_amount": 0
         }
     ]
 }

@@ -117,9 +117,18 @@ def register():
             print("This username is already taken by an admin.")
             return
 
+    # if role == "admin":
+    #     admin = Admin(username, password, first_name, last_name)
+    #     Admin.save_admin(admin)
+    
     if role == "admin":
-        admin = Admin(username, password, first_name, last_name)
-        Admin.save_admin(admin)
+      existing_admins = Admin.load_admins()
+      if existing_admins:
+        print("An admin already exists. Only one admin is allowed.")
+        return
+      admin = Admin(username, password, first_name, last_name)
+      Admin.save_admin(admin)
+
     elif role == "customer":
         users = load_users()
         for u in users:
